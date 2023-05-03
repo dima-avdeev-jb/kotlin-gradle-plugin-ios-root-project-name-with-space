@@ -11,5 +11,5 @@ e: Could not find "Contains" in [/Users/dim/Desktop/github/dima-avdeev-jb/kotlin
 
 All fine with: `rootProject.name = "NoSpace"`
 
-To reproduce:
-`./gradlew :module1:linkPodDebugFrameworkIosSimulatorArm64`
+ - Reproduce on Apple Silicon: `./gradlew :module1:linkPodDebugFrameworkIosSimulatorArm64`
+ - On X86: `./gradlew :module1:linkPodDebugFrameworkIosX64`
